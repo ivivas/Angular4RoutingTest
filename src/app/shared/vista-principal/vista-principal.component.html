@@ -1,0 +1,13 @@
+
+<h3>VISTA PRINCIPAL</h3>
+<div class="row">
+  <div class="col-6">
+    <div class="btn-group-vertical" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-secondary" (click)="selectFeature('persona')">PERSONA</button>
+      <button type="button" class="btn btn-secondary" (click)="selectFeature('pais')">PAIS</button>
+    </div>
+  </div>
+  <div class="col-6">
+    <router-outlet></router-outlet>
+  </div>
+</div>
