@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
+  { path: 'vista-principal', component: VistaPrincipalComponent },
   {
     path: 'vista-principal/vista-persona', component: VistaPrincipalComponent,
     loadChildren: './shared/vista-principal/features/persona/components/persona/persona.module#PersonaModule',

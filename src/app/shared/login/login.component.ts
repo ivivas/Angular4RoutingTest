@@ -14,7 +14,7 @@ export class LoginComponent implements OnInit {
   }
 
   acceder() {
-    this.router.navigate(['vista-principal/vista-persona']);
+    this.router.navigate(['vista-principal']);
   }
 
 }
